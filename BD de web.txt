@@ -1,0 +1,3 @@
+Utilizadores (email PK, password, pontos )
+Objetivo (idObjetivo PK, nome, descricao, valor)
+Utilizador_Objetivo (idObjetivo, nome, email)
