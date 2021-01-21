@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Principal</title>
+  <link rel="stylesheet" href="./css/paginaprincipal.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+<script>
+  function openLogin() {
+    window.open("paginaLogin.php");
+  }
+
+  function openSignup() {
+    window.open("paginaSignup.php");
+  }
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="navbar">
+      <img class="logo" src="media/logo.png" >
+      <ul>
+        <li><a href="#" class="active">Inicio</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Desafios</a></li>
+      </ul>
+    </nav>
+    <div class="center">
+      <h1>SmartFinder</h1>
+      <h2>App para Smartphone</h2>
+        <div class="buttons">
+          <form>
+          <button onclick="openLogin()">Login</button>
+          <button onclick="openSignup()" class="btn">Registar</button>
+        </form>
+
+        </div>
+
+    </div>
+  </div>
+</body>
+</html>
