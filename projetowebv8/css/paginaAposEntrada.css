@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background-color: rgb(22, 32, 51);
+    background-size: cover;
+    height:100vh ;
+}
+
+.navbar {
+    height: 120px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+    padding: 10px 60px;
+}
+
+.navbar ul{
+    float: right;
+    margin-left: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 120px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:  rgb(63, 90, 145);
+    border-radius: 2px;
+}
+
+.leaderboard{
+    max-width: 25rem;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    margin: 4rem auto;
+    
+
+}
+
+.leaderboard header{
+    background-color:rgb(22, 32, 51);
+    position: relative;
+    margin-bottom: 60px;
+    
+   
+
+}
+
+.leaderboard h2{
+    font-size: 2.3rem;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+    
+    
+}
+
+.leaderboard h4{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 80px;
+    color: white;
+}
+
+.leaderboard table{
+    background-color: lightgrey;
+    color: rgb(54, 54, 54);
+    width: 100%;
+    border-collapse: collapse;
+    
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    overflow: hidden;
+}
+
+.leaderboard thead{
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+}
+.leaderboard tbody .nick{
+    color: black;
+    font-weight: bold;
+}
+
+.leaderboard tbody tr:nth-child(2n){
+    background-color: rgb(180, 180, 180);
+}
+
+.nick{
+    text-align: left;
+}
+
+.pontos{
+    text-align: center;
+}
+
+.leaderboard th{
+    padding: 1rem 1rem 0;
+}
+
+.leaderboard td{
+    padding: 1rem;
+}
+
+.leaderboard img{
+    height: 4rem;
+    bottom:0 ;
+   position: absolute;
+   right: 1rem;
+   
+    
+}
