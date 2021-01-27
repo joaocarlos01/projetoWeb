@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.wrapper{
+    background-color: rgb(22, 32, 51);
+    background-size: cover;
+    height:100vh ;
+    
+}
+
+.navbar {
+    height: 120px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+    padding: 10px 60px;
+}
+
+.navbar ul{
+    float: right;
+    margin-left: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 120px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:  rgb(63, 90, 145);
+    border-radius: 2px;
+}
+
+
