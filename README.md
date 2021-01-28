@@ -6,3 +6,7 @@ O website irá aprsentar todas a estatisticas do utilizador, assim como, todos o
 Para além disso, será apresentada uma leaderboard dos utilizadores da aplicação.
 
 Ficheiros de código no ramo desenvolvimento
+
+URL do site no 000webhost:
+
+https://joaoccv01pwsite.000webhostapp.com/
