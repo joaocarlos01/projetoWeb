@@ -136,11 +136,7 @@ INSERT INTO `users_objetivos` (`email`, `id`, `estado`) VALUES
 ('joão@gmail.com', 3, 0),
 ('joão@gmail.com', 5, 0),
 ('joão@gmail.com', 14, 0),
-('joão@gmail.com', 12, 0),
-('joão@gmail.com', 2, 0),
-('joão@gmail.com', 16, 0),
-('joão@gmail.com', 19, 0),
-('joão@gmail.com', 10, 0),
+
 ('ana@gmail.com', 20, 0),
 ('francisco@gmail.com', 13, 0);
 
